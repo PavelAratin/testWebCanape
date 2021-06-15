@@ -1,0 +1,59 @@
+/*style for slick-slider*/
+
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    column-gap: 30px;
+}
+
+
+/*стилизация своих конопок*/
+.news__wrapper{
+    position: relative;
+}
+
+.news__wrapper .slick-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.news__wrapper .slick-arrow.slick-prev{
+    width: 74px;
+    height: 45px;
+    font-size: 0;
+    border: none;
+    background: transparent;
+    background-image: url('../img/button__prev.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 80px;
+    cursor: pointer;
+}
+
+.news__wrapper .slick-arrow.slick-next{
+    width: 74px;
+    height: 45px;
+    font-size: 0;
+    border: none;
+    background: transparent;
+    background-image: url('../img/button__nex.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .news__wrapper .slick-arrow.slick-prev,
+    .news__wrapper .slick-arrow.slick-next {
+        width: 50px;
+    }
+
+    
+
+}

@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Элеватормельмаш</title>
+</head>
+
+<body>
+    <div class="site__wrapper">
+        <!--Мобильное меню начало-->
+        <div class="mobile-menu">
+            <div class="mobile-container">
+                <button class="mobile-burger-menu">
+                    <span class="burger-line line__one line__one--close"></span>
+                    <span class="burger-line line__three line__three--close"></span>
+                </button>
+                <ul class="mobile__list">
+                    <li class="list__item"><a href="#!" class="link header__link">О компании</a></li>
+                    <li class="list__item"><a href="#!" class="link header__link">Вакансии</a></li>
+                    <li class="list__item"><a href="#!" class="link header__link">Новости</a></li>
+                    <li class="list__item"><a href="#!" class="link header__link">Контакты</a></li>
+                </ul>
+                <div class="mobile-header__telephone">
+                    <a href="tel:+8 (86138) 6-34-03" class="telephone telephone__one">8 (86138) 6-34-03</a>
+                    <a href="tel:6-34-06" class=" telephone telephone__two">6-34-06</a>
+                </div>
+                <a class="mobile-mail" href="mailto:sale@semm.ru">sale@semm.ru</a>
+                <div class="mobile-header__schedule">
+                    <p class="pn-pt">Пн-Пт 8:00-17:00</p>
+                    <p class="break">Перерыв 12:00-13:00</p>
+                    <p class="holiday">Сб-ВС:Выходной</p>
+                </div>
+            </div>
+        </div>
+        <!--Мобильное меню конец-->
+        <!--Хедер начало-->
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <button class="burger-menu">
+                        <span class="burger-line line__one"></span>
+                        <span class="burger-line line__two"></span>
+                        <span class="burger-line line__three"></span>
+                    </button>
+                    <a class="header__logo" href="#!">
+                        <img src="img/header-logo.svg" alt="Логотип компании">
+                    </a>
+
+                    <div class="header__nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="list__item"><a href="#!" class="link header__link">О компании</a></li>
+                                <li class="list__item"><a href="#!" class="link header__link">Вакансии</a></li>
+                                <li class="list__item"><a href="#!" class="link header__link">Новости</a></li>
+                                <li class="list__item"><a href="#!" class="link header__link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__schedule">
+                            <p class="pn-pt">Пн-Пт 8:00-17:00</p>
+                            <p class="break">Перерыв 12:00-13:00</p>
+                            <p class="holiday">Сб-ВС:Выходной</p>
+                        </div>
+                    </div>
+
+                    <a class="mail" href="mailto:sale@semm.ru">sale@semm.ru</a>
+
+                    <div class="header__language">
+                        <div class="language__top">
+                            <div class="language__top__wrapper">
+                                <a href="#!" class="language language__ru">Ru</a>
+                                <a href="#!" class="language language__en">En</a>
+                            </div>
+                            <span class="select__language">Выбор языка</span>
+                        </div>
+                        <div class="header__telephone">
+                            <a href="tel:+8 (86138) 6-34-03" class="telephone telephone__one">8 (86138) 6-34-03</a>
+                            <a href="tel:6-34-06" class=" telephone telephone__two">6-34-06</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <!--Хедер конец-->
+        <main class="main">
+            <!--Херо-блок начало-->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-line__top">
+                        <nav class="hero-nav">
+                            <ul class="hero-nav__list">
+                                <li class="hero-nav__item"><a href="#!" class="link hero-nav__link">Элеваторное
+                                        оборудование</a></li>
+                                <li class="hero-nav__item"><a href="#!" class="link hero-nav__link">Котлы</a></li>
+                                <li class="hero-nav__item"><a href="#!"
+                                        class="link hero-nav__link">Металлоконструкции</a>
+                                </li>
+                                <li class="hero-nav__item"><a href="#!" class="link hero-nav__link">Услуги</a></li>
+                            </ul>
+                        </nav>
+                        <a class="link hero-search" href="#!" class="link hero-search"><svg width="27" height="27"
+                                viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M16.7703 16.5374C19.6748 13.6329 19.6748 8.92369 16.7703 6.01917C13.8658 3.11464 9.15662 3.11464 6.2521 6.01917C3.34758 8.92369 3.34758 13.6329 6.2521 16.5374C9.15662 19.4419 13.8658 19.4419 16.7703 16.5374ZM17.6131 18.6417C13.8564 21.7623 8.2712 21.5617 4.7495 18.04C1.01511 14.3056 1.01511 8.25095 4.7495 4.51657C8.48388 0.782177 14.5385 0.782177 18.2729 4.51657C21.6813 7.92497 21.9788 13.2662 19.1655 17.0121L23.446 21.2926C23.884 21.7306 23.886 22.4388 23.4436 22.8812C23.0043 23.3205 22.2877 23.3163 21.855 22.8836L17.6131 18.6417Z" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="27" height="27" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+                    <div class="hero-description">
+                        <h1 class="hero-title">Элеватормельмаш</h1>
+                        <p class="hero-subtitle">Крупнейший поставщик продукции для агропромышленного комплекса России и
+                            ближнего зарубежья</p>
+                    </div>
+                    <div class="hero-line__bottom">
+                        <div class="hero-wrap-btn">
+                            <button class="hero-btn btn-prev hero-btn-prev"><svg width="62" height="39"
+                                    viewBox="0 0 62 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1" y="19.0001" width="61" height="1" fill="white" />
+                                    <rect width="27.7894" height="0.992478"
+                                        transform="matrix(0.712466 -0.701706 0.712466 0.701706 0 19.5)" fill="white" />
+                                    <rect width="27.7894" height="0.992478"
+                                        transform="matrix(0.712466 0.701706 -0.712466 0.701706 0.707031 18.8036)"
+                                        fill="white" />
+                                </svg></button>
+                            <button class="hero-btn btn-next hero-btn-next"><svg width="62" height="39"
+                                    viewBox="0 0 62 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="61" height="1" transform="matrix(-1 0 0 1 61 19.0001)" fill="white" />
+                                    <rect width="27.7894" height="0.992478"
+                                        transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 62 19.5)"
+                                        fill="white" />
+                                    <rect width="27.7894" height="0.992478"
+                                        transform="matrix(-0.712466 0.701706 0.712466 0.701706 61.293 18.8036)"
+                                        fill="white" />
+                                </svg></button>
+                        </div>
+                        <div class="hero-line"><svg width="1014" height="1" viewBox="0 0 1014 1" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="1014" height="1" fill="white" fill-opacity="0.2" />
+                            </svg></div>
+                        <span class="hero-number">01</span>
+                    </div>
+                </div>
+            </section>
+            <!--Херо-блок конец-->
+            <!--Продукция начало-->
+            <section class="production">
+                <div class="container">
+                    <h1 class="production__title">Продукция для аграрной промышленности</h1>
+                    <p class="production__subtitle">АО "Элеватормельмаш" г. Кропоткин на протяжении 75 лет является
+                        крупнейшим поставщиком продукции для агропромышленного комплекса России и ближнего зарубежья.
+                        Предприятие выпускает большой спектр оборудования в которые входит: элеваторное оборудование,
+                        промышленные котлы, бетоносмесители, металлоконструкции и металлические формы для свай.
+
+                        Собственное конструкторское бюро позволяет разрабатывать новую, а так же регулярно улучшать и
+                        модернизировать существующую продукцию.</p>
+
+                    <div class="production-cards">
+                        <div class="production-cards__card">
+                            <span class="production-cards__number">75 <span>лет</span></span>
+                            <p class="text-production productions-cards__text">опыта на рынке агропромышленного
+                                комплекса</p>
+                        </div>
+                        <div class="production-cards__card">
+                            <span class="production-cards__number"> <span>></span> 200</span>
+                            <p class="text-production productions-cards__text">видов мельнично - элеваторного
+                                оборудования</p>
+                        </div>
+                        <div class="production-cards__card">
+                            <span class="production-cards__number">25</span>
+                            <p class="text-production productions-cards__text">видов котлов промышленного назначения</p>
+                        </div>
+                        <div class="production-cards__card">
+                            <span class="production-cards__number">20</span>
+                            <p class="text-production productions-cards__text">почвообрабатывающей техники</p>
+                        </div>
+                        <div class="production-cards__card">
+                            <span class="production-cards__number">35</span>
+                            <p class="text-production productions-cards__text">регионов поставки продукции</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--Продукция конец-->
+            <!--Елеватор начало-->
+            <section class="elevator">
+                <div class="container">
+                    <h1 class="title elevator-title">Элеваторное оборудование</h1>
+                    <div class="elevator-cards">
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Каринка1.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Автомобиле-разгрузчик</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка2.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Конвейеры</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка3.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Пробоотборники</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка4.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Циклоны</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка5.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Нории</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка6.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Переработка маслосемян</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка7 (2).jpg"
+                                        alt="Картинка1"></div>
+                                <figcaption class="img__title">Клапаны</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка8.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Задвижки реечные</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка9.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Тележка сбрасывающая</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка10.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Шлюзовой затвор</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка11.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Затвор огнепреграждающий</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="elevator-cards__card">
+                            <figure class="figure">
+                                <div class="img__wrap"><img class="img__card" src="img/Картинка12.jpg" alt="Картинка1">
+                                </div>
+                                <figcaption class="img__title">Устройство загрузки вагонов</figcaption>
+                                <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)"
+                                            fill="white" />
+                                        <rect width="15.0155" height="0.992478"
+                                            transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                            fill="white" />
+                                        <rect width="15.0312" height="0.992478"
+                                            transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                            fill="white" />
+                                    </svg></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Елеватор конец-->
+
+            <!--Другое оборудование начало-->
+            <section class="other">
+                <div class="container">
+                    <h1 class="title other__title">Другое оборудование</h1>
+                    <div class="elevator-cards__other">
+                        <figure class="figure">
+                            <div class="img__wrap"><img class="img__card img__other" src="img/Other__img1.jpg"
+                                    alt="Картинка1"></div>
+                            <figcaption class="img__title">Котлы</figcaption>
+                            <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)" fill="white" />
+                                    <rect width="15.0155" height="0.992478"
+                                        transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                        fill="white" />
+                                    <rect width="15.0312" height="0.992478"
+                                        transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                        fill="white" />
+                                </svg></figcaption>
+                        </figure>
+
+                        <figure class="figure">
+                            <div class="img__wrap"><img class="img__card img__other" src="img/Other__img2.png"
+                                    alt="Картинка1"></div>
+                            <figcaption class="img__title">дополнительное оборудование</figcaption>
+                            <figcaption class="img__arrow"><svg width="39" height="22" viewBox="0 0 39 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="38" height="1" transform="matrix(-1 0 0 1 38 10.0366)" fill="white" />
+                                    <rect width="15.0155" height="0.992478"
+                                        transform="matrix(-0.712466 -0.701706 -0.712466 0.701706 39 10.5364)"
+                                        fill="white" />
+                                    <rect width="15.0312" height="0.992478"
+                                        transform="matrix(-0.712466 0.701706 0.712466 0.701706 38.293 9.84009)"
+                                        fill="white" />
+                                </svg></figcaption>
+                        </figure>
+                    </div>
+                    <div class="other__discription">
+                        <p class="text-production text-production__other">"Элеватормельмаш" используется на предприятиях
+                            Юга ,Поволжья и
+                            Центральной России, а так же Украины, Казахстана, Молдовы и Белоруссии. Большое количество
+                            успешных партнерских отношений подтверждает качество продукции и предоставляемых услуг по
+                            установке оборудования и его обслуживанию. </p>
+
+                        <p class="text-production"> В 2013 году была проведена крупная модернизация оборудования.
+                            Введены в эксплуатацию: станок гидроабразивной резки, четырехволковая машина с ЧПУ и
+                            листогибочный станок с ЧПУ.Это сразу позволило на порядок поднять качество выпускаемой
+                            продукции , снизить трудоемкость процессов, а так же увеличить ассортимент выпускаемой
+                            продукции. </p>
+                    </div>
+                </div>
+            </section>
+            <!--Другое оборудование конец-->
+
+            <!--Услуги компании начало-->
+            <section class="services">
+                <div class="container">
+                    <h1 class="title">Услуги компании</h1>
+                    <div class="services-cards">
+                        <div class="services-cards__card">
+                            <figure class="figure">
+                                <img class="services__img" src="img/services__img1.jpg" alt="Картинка1">
+                                <figcaption class="img__number">01</figcaption>
+                            </figure>
+                            <h3 class="services-cards__title">Плазменная резка</h3>
+                            <p class="services-cards__subtitle">Уникальная технология, которая может производить резку
+                                различных материалов, в том числе стекла, пластика, металла и многих других.</p>
+                        </div>
+                        <div class="services-cards__card">
+                            <figure class="figure">
+                                <img class="services__img" src="img/services__img2.jpg" alt="Картинка1">
+                                <figcaption class="img__number">02</figcaption>
+                            </figure>
+                            <h3 class="services-cards__title">Гидроабразивная резка</h3>
+                            <p class="services-cards__subtitle">Компания АО «Элеватормельмаш» осуществляет литейное
+                                производство черных и цветных металлов на профессиональной основе и производит литые
+                                детали из чугуна и цветных сплавов по эскизу заказчика.</p>
+                        </div>
+                        <div class="services-cards__card">
+                            <figure class="figure">
+                                <img class="services__img" src="img/services__img3.jpg" alt="Картинка1">
+                                <figcaption class="img__number">03</figcaption>
+                            </figure>
+                            <h3 class="services-cards__title">Изготовление изделий на листогибочном станке с ЧПУ</h3>
+                            <p class="services-cards__subtitle">Позволяет изготавливать сложные профили, элементов
+                                кровли, оконные отливы и т.д. Такой станок незаменим при любых гибочных работах.</p>
+                        </div>
+                        <div class="services-cards__card">
+                            <figure class="figure">
+                                <img class="services__img" src="img/services__img4.jpg" alt="Картинка1">
+                                <figcaption class="img__number">04</figcaption>
+                            </figure>
+                            <h3 class="services-cards__title">Производство металлоконструкций</h3>
+                            <p class="services-cards__subtitle">Металлоконструкции изготавливаются по индивидуальным
+                                параметрам с учетом всех пожеланий заказчика</p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--Услуги компании конец-->
+
+            <!--Новости компании начало-->
+            <section class="news">
+                <div class="container">
+                    <div class="news__wrapper">
+                        <h1 class="title news__title">
+                            Новости компании
+                        </h1>
+                        <div class="news-wrap-btn">
+                           
+                        </div>
+
+                    </div>
+                    <div class="news-cards">
+                        <div class="news-cards__card news-cards__card--one">
+                            <img class="news__img" src="img/news__img1.jpg" alt="картинка1">
+                            <h3 class="services-cards__title">Запасные части для пробоотборника</h3>
+                            <span class="news-data">14.10.2020</span>
+                            <p class="services-cards__subtitle">Заводом Элеватормельмаш (ЭММ) изготовлены и подготовлены
+                                к отгрузке запасные отборники для пробоотборника типа У1-УПП для Заказчика из
+                                Саратовской области. </p>
+                        </div>
+                        <div class="news-cards__card">
+                            <img class="news__img" src="img/news__img2.jpg" alt="картинка1">
+                            <h3 class="services-cards__title">Фузоловушка для расширения производства</h3>
+                            <span class="news-data">14.10.2020</span>
+                            <p class="services-cards__subtitle">Для увеличения объемов выпускаемой продукции и в целях
+                                модернизации производства для одного из маслобойных предприятий республики Башкортостан
+                                завод Элеватормельмаш изготовил и отгрузил очередную машину типа МФС. </p>
+                        </div>
+                        <div class="news-cards__card">
+                            <img class="news__img" src="img/ntws__img3.jpg" alt="картинка1">
+                            <h3 class="services-cards__title">Произведена мультимодальная отгрузка котлов</h3>
+                            <span class="news-data">14.10.2020</span>
+                            <p class="services-cards__subtitle">Мы произвели и отгрузили очередную партию промышленных
+                                котлов. Данная отгрузка была необчной, а мультимодальная (авто-, ж.д. контейнер, морской
+                                паром). </p>
+                        </div>
+                        <div class="news-cards__card news-cards__card--one">
+                            <img class="news__img" src="img/news__img1.jpg" alt="картинка1">
+                            <h3 class="services-cards__title">Запасные части для пробоотборника</h3>
+                            <span class="news-data">14.10.2020</span>
+                            <p class="services-cards__subtitle">Заводом Элеватормельмаш (ЭММ) изготовлены и подготовлены
+                                к отгрузке запасные отборники для пробоотборника типа У1-УПП для Заказчика из
+                                Саратовской области. </p>
+                        </div>
+                        <div class="news-cards__card">
+                            <img class="news__img" src="img/news__img2.jpg" alt="картинка1">
+                            <h3 class="services-cards__title">Фузоловушка для расширения производства</h3>
+                            <span class="news-data">14.10.2020</span>
+                            <p class="services-cards__subtitle">Для увеличения объемов выпускаемой продукции и в целях
+                                модернизации производства для одного из маслобойных предприятий республики Башкортостан
+                                завод Элеватормельмаш изготовил и отгрузил очередную машину типа МФС. </p>
+                        </div>
+                        <div class="news-cards__card">
+                            <img class="news__img" src="img/ntws__img3.jpg" alt="картинка1">
+                            <h3 class="services-cards__title">Произведена мультимодальная отгрузка котлов</h3>
+                            <span class="news-data">14.10.2020</span>
+                            <p class="services-cards__subtitle">Мы произвели и отгрузили очередную партию промышленных
+                                котлов. Данная отгрузка была необчной, а мультимодальная (авто-, ж.д. контейнер, морской
+                                паром). </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--Новости компании конец-->
+            <!--Связь с компание начало-->
+            <section class="connection">
+                <div class="container">
+                    <h1 class="title connection-title">Свяжитесь с нами</h1>
+                    <form class="form" action="GET">
+                        <div class="form__wrapper">
+                            <div class="inputs">
+                                <input class="input input__form" type="text" value="ФИО">
+                                <input class="input input__form" type="tel" value="Телефон">
+                                <input class="input input__form" type="email" value="E-mail">
+                            </div>
+                            <textarea class="input textarea" cols="30" rows="10">Ваш запрос</textarea>
+                        </div>
+                        <p class="form__descr">Нажимая на кнопку вы даете согласие на обработку персональных данных</p>
+                        <input class="form-button" type="submit" value="Отправить">
+                    </form>
+                </div>
+            </section>
+            <!--Связь с компание конец-->
+        </main>
+
+        <!--Футер начало-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <a class="header__logo" href="#!">
+                        <img src="img/header-logo.svg" alt="Логотип компании">
+                    </a>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">О компании</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Каталог продукции</a>
+                        </li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Услуги</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Вакансии</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Новости</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Контакты</a></li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Элеваторное
+                                оборудование</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Котлы</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Металлоконструкции</a>
+                        </li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Запчасти на
+                                элеваторное
+                                оборудование</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Трубы дымовые</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Водонапорные башни</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Котел-утилизатор</a>
+                        </li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Скреперный набор для
+                                уборки
+                                навоза</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Планетарный
+                                бетоносмеситель</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Подьемники</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Тележки</a></li>
+                        <li class="footer-list__item"><a href="#!" class="link footer-list__link">Неликвиды</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-bottom">
+                    <ul class="footer-bottom__list">
+                        <li class="footer-bottom__list__item">
+                            <a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 2C13.3478 2 10.8043 3.05357 8.92893 4.92893C7.05357 6.8043 6 9.34784 6 12C6 19.3 14.88 29.25 15.26 29.67C15.3538 29.7748 15.4686 29.8585 15.597 29.9159C15.7254 29.9733 15.8644 30.0029 16.005 30.0029C16.1456 30.0029 16.2846 29.9733 16.413 29.9159C16.5414 29.8585 16.6562 29.7748 16.75 29.67C17.12 29.25 26 19.3 26 12C26 10.6868 25.7413 9.38642 25.2388 8.17317C24.7362 6.95991 23.9997 5.85752 23.0711 4.92893C22.1425 4.00035 21.0401 3.26375 19.8268 2.7612C18.6136 2.25866 17.3132 2 16 2ZM16 27.46C13.89 24.93 8 17.39 8 12C8 9.87827 8.84285 7.84344 10.3431 6.34315C11.8434 4.84285 13.8783 4 16 4C18.1217 4 20.1566 4.84285 21.6569 6.34315C23.1571 7.84344 24 9.87827 24 12C24 17.39 18.11 24.93 16 27.46Z"
+                                        fill="#69A54D" />
+                                    <path
+                                        d="M16 7C15.2089 7 14.4355 7.2346 13.7777 7.67412C13.1199 8.11365 12.6072 8.73836 12.3045 9.46926C12.0017 10.2002 11.9225 11.0044 12.0769 11.7804C12.2312 12.5563 12.6122 13.269 13.1716 13.8284C13.731 14.3878 14.4437 14.7688 15.2196 14.9231C15.9956 15.0775 16.7998 14.9983 17.5307 14.6955C18.2616 14.3928 18.8864 13.8801 19.3259 13.2223C19.7654 12.5645 20 11.7911 20 11C20 9.93913 19.5786 8.92172 18.8284 8.17157C18.0783 7.42143 17.0609 7 16 7ZM16 13C15.6044 13 15.2178 12.8827 14.8889 12.6629C14.56 12.4432 14.3036 12.1308 14.1522 11.7654C14.0009 11.3999 13.9613 10.9978 14.0384 10.6098C14.1156 10.2219 14.3061 9.86549 14.5858 9.58579C14.8655 9.30608 15.2219 9.1156 15.6098 9.03843C15.9978 8.96126 16.3999 9.00086 16.7654 9.15224C17.1308 9.30362 17.4432 9.55996 17.6629 9.88886C17.8827 10.2178 18 10.6044 18 11C18 11.5304 17.7893 12.0391 17.4142 12.4142C17.0391 12.7893 16.5304 13 16 13Z"
+                                        fill="#69A54D" />
+                                </svg></a>
+                            <p class="item-text">Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</p>
+                        </li>
+                    </ul>
+                    <ul class="footer-bottom__list">
+                        <li class="footer-bottom__list__item">
+                            <a href="#!"><svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.94268 2.48002C2.79985 2.58734 1.88209 3.49704 1.85986 4.60158C2.10953 12.0879 4.47962 18.1156 8.78643 22.2425C13.0932 26.3694 19.2757 28.5331 26.9505 28.52C28.2099 28.5256 29.0778 27.4615 29.1011 26.3887C29.1139 24.6199 29.1276 22.8468 29.1399 21.08C29.1399 19.8457 28.0212 19.0447 26.9892 19.0359C25.3996 19.0421 23.1832 18.4644 21.3899 18.0188C21.0837 17.9448 20.7422 18.0395 20.518 18.2609L17.5633 21.1284C14.0039 18.991 12.3735 17.416 10.1814 13.9694L13.1167 11.131C13.3543 10.9014 13.4545 10.5393 13.3686 10.2203C12.8853 8.41105 12.0886 6.05365 12.2158 4.39816C12.0899 3.10573 10.8635 2.4731 9.8908 2.48004C7.82034 2.48001 5.71516 2.48006 3.94268 2.48002H3.94268ZM3.95235 4.34002C5.94373 4.34002 7.94095 4.34002 9.92953 4.34002C10.2299 4.34572 10.2299 4.34572 10.3752 4.62096C10.3199 6.61639 10.9749 8.63226 11.4214 10.1816L8.34079 13.1847C8.04068 13.4761 7.97707 13.9807 8.19547 14.3375C10.8453 18.6328 12.8103 20.5387 17.2242 23.1144C17.5714 23.3162 18.0496 23.2579 18.3383 22.9787L21.448 19.9466C23.1346 20.3727 25.1582 20.9033 26.9989 20.8959C27.1323 20.921 27.2638 21.11 27.2798 21.1284L27.2411 26.3791C27.1764 26.5304 27.2799 26.6657 26.8923 26.66C19.5957 26.66 13.9652 24.6237 10.0748 20.8959C6.17392 17.158 3.95767 11.6648 3.71985 4.53377C3.71986 4.34573 3.71986 4.34573 3.95235 4.34002Z"
+                                        fill="#69A54D" />
+                                </svg></a>
+                            <p class="item-text">Тел./Факс: 8(86138) 6-34-03, 6-34-06
+                                E-mail: sale@semm.ru</p>
+                        </li>
+                    </ul>
+                    <ul class="footer-bottom__list footer-bottom__list__three">
+                        <li class="footer-bottom__list__item">
+                            <a href="#!"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 2C13.3478 2 10.8043 3.05357 8.92893 4.92893C7.05357 6.8043 6 9.34784 6 12C6 19.3 14.88 29.25 15.26 29.67C15.3538 29.7748 15.4686 29.8585 15.597 29.9159C15.7254 29.9733 15.8644 30.0029 16.005 30.0029C16.1456 30.0029 16.2846 29.9733 16.413 29.9159C16.5414 29.8585 16.6562 29.7748 16.75 29.67C17.12 29.25 26 19.3 26 12C26 10.6868 25.7413 9.38642 25.2388 8.17317C24.7362 6.95991 23.9997 5.85752 23.0711 4.92893C22.1425 4.00035 21.0401 3.26375 19.8268 2.7612C18.6136 2.25866 17.3132 2 16 2ZM16 27.46C13.89 24.93 8 17.39 8 12C8 9.87827 8.84285 7.84344 10.3431 6.34315C11.8434 4.84285 13.8783 4 16 4C18.1217 4 20.1566 4.84285 21.6569 6.34315C23.1571 7.84344 24 9.87827 24 12C24 17.39 18.11 24.93 16 27.46Z"
+                                        fill="#69A54D" />
+                                    <path
+                                        d="M16 7C15.2089 7 14.4355 7.2346 13.7777 7.67412C13.1199 8.11365 12.6072 8.73836 12.3045 9.46926C12.0017 10.2002 11.9225 11.0044 12.0769 11.7804C12.2312 12.5563 12.6122 13.269 13.1716 13.8284C13.731 14.3878 14.4437 14.7688 15.2196 14.9231C15.9956 15.0775 16.7998 14.9983 17.5307 14.6955C18.2616 14.3928 18.8864 13.8801 19.3259 13.2223C19.7654 12.5645 20 11.7911 20 11C20 9.93913 19.5786 8.92172 18.8284 8.17157C18.0783 7.42143 17.0609 7 16 7ZM16 13C15.6044 13 15.2178 12.8827 14.8889 12.6629C14.56 12.4432 14.3036 12.1308 14.1522 11.7654C14.0009 11.3999 13.9613 10.9978 14.0384 10.6098C14.1156 10.2219 14.3061 9.86549 14.5858 9.58579C14.8655 9.30608 15.2219 9.1156 15.6098 9.03843C15.9978 8.96126 16.3999 9.00086 16.7654 9.15224C17.1308 9.30362 17.4432 9.55996 17.6629 9.88886C17.8827 10.2178 18 10.6044 18 11C18 11.5304 17.7893 12.0391 17.4142 12.4142C17.0391 12.7893 16.5304 13 16 13Z"
+                                        fill="#69A54D" />
+                                </svg></a>
+                            <p class="item-text">Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </footer>
+        <div class="pvate-policy">
+            <div class="container">
+                <ul class="private-policy__list">
+                    <li class="private-oilicy__item"><a class="private-oilicy__item__link" href="#!">© АО
+                            "Элеватормельмаш" 2014 г.</a></li>
+                    <li class="private-oilicy__item"><a class="private-oilicy__item__link" href="#!">Разработка и
+                            маркетинг - WebCanape</a></li>
+                    <li class="private-oilicy__item"><a class="private-oilicy__item__link" href="#!">Политика
+                            конфиденциальности</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Футер конец-->
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
